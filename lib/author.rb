@@ -11,10 +11,10 @@ class Author
     @posts
   end
   
-  # def add_song(song)
-  #   @songs << self
-  #   song.artist = self
-  # end
+  def add_post(post)
+    @songs << self
+    song.artist = self
+  end
 
 
 end

@@ -18,11 +18,11 @@ class Post
   end
   
   # describe '#author_name' do
-    it 'knows the name of its author' do
-      sophie = Author.new('Sophie')
-      post.author = sophie
-      expect(post.author_name).to eq('Sophie')
-    end
+    # it 'knows the name of its author' do
+    #   sophie = Author.new('Sophie')
+    #   post.author = sophie
+    #   expect(post.author_name).to eq('Sophie')
+    # end
   
   def author_name
     @author

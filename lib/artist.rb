@@ -26,5 +26,4 @@ class Artist
     song.author = self
   end
 
-
 end

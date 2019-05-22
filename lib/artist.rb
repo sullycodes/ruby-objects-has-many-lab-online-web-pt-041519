@@ -25,5 +25,9 @@ class Artist
     @@songs << song
     song.author = self
   end
+  
+  def songs
+    @songs
+  end
 
 end

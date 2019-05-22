@@ -16,6 +16,11 @@ class Artist
     song.artist = self
   end
 
+  def add_song_by_name(song)
+    @songs << self
+    @@songs << self
+    post.author = self
+  end
 
 
 end

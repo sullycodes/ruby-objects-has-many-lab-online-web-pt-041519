@@ -4,4 +4,9 @@ class Song
   
   @@all = []
 
+  
+
+  def name 
+    
+  end
 end
